@@ -1,0 +1,190 @@
+404 Not Found
+Date: Fri, 21 Oct 2016 20:30:41 GMT
+Server: Apache/2.0.52 (CentOS)
+Content-Length: 280
+Connection: close
+Content-Type: text/plain; charset=utf-8
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /wiki.org was not found on this server.</p>
+<hr>
+<address>Apache/2.0.52 (CentOS) Server at wiki.org Port 80</address>
+</body></html>
+
+
+---------------------------
+
+
+200 OK
+Server: nginx
+Date: Fri, 21 Oct 2016 20:30:42 GMT
+Content-Length: 34
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Content-Type: text/plain; charset=utf-8
+
+{
+  "origin": "212.220.216.206"
+}
+
+
+---------------------------
+
+
+200 OK
+Server: nginx
+Date: Fri, 21 Oct 2016 20:30:42 GMT
+Content-Length: 320
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Content-Type: text/plain; charset=utf-8
+
+{
+  "args": {
+    "1": "2", 
+    "2/0": "", 
+    "error": "True", 
+    "foo": "bar"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "identity", 
+    "Content-Length": "0", 
+    "Host": "httpbin.org"
+  }, 
+  "origin": "212.220.216.206", 
+  "url": "http://httpbin.org/get?foo=bar&1=2&2%2F0&error=True"
+}
+
+
+---------------------------
+
+
+200 OK
+Server: nginx
+Date: Fri, 21 Oct 2016 20:30:42 GMT
+Content-Length: 392
+Connection: close
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Content-Type: text/plain; charset=utf-8
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "1": "2", 
+    "2/0": "", 
+    "error": "True", 
+    "foo": "bar"
+  }, 
+  "headers": {
+    "Accept-Encoding": "identity", 
+    "Content-Length": "29", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org"
+  }, 
+  "json": null, 
+  "origin": "212.220.216.206", 
+  "url": "http://httpbin.org/post"
+}
+
+
+---------------------------
+
+
+302 FOUND
+Server: nginx
+Date: Fri, 21 Oct 2016 20:30:43 GMT
+Content-Length: 223
+Connection: close
+Location: /cookies
+Set-Cookie: country=Ru; Path=/
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Content-Type: text/plain; charset=utf-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>Redirecting...</title>
+<h1>Redirecting...</h1>
+<p>You should be redirected automatically to target URL: <a href="/cookies">/cookies</a>.  If not click the link.
+
+---------------------------
+
+
+200 OK
+Server: nginx
+Date: Fri, 21 Oct 2016 20:30:43 GMT
+Content-Length: 20
+Connection: close
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Content-Type: text/plain; charset=utf-8
+
+{
+  "cookies": {}
+}
+
+
+---------------------------
+
+
+302 FOUND
+Server: nginx
+Date: Fri, 21 Oct 2016 20:30:44 GMT
+Content-Length: 247
+Connection: close
+Location: /relative-redirect/3
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Content-Type: text/plain; charset=utf-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>Redirecting...</title>
+<h1>Redirecting...</h1>
+<p>You should be redirected automatically to target URL: <a href="/relative-redirect/3">/relative-redirect/3</a>.  If not click the link.
+
+---------------------------
+
+
+200 OK
+Server: nginx
+Date: Fri, 21 Oct 2016 20:30:46 GMT
+Content-Length: 436
+Connection: close
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Content-Type: text/plain; charset=utf-8
+
+{
+  "args": {}, 
+  "data": "", 
+  "files": {}, 
+  "form": {
+    "firstname": "Maxim", 
+    "group": "fo340001", 
+    "lastname": "Salimgareev", 
+    "message": "hello world"
+  }, 
+  "headers": {
+    "Accept-Encoding": "identity", 
+    "Content-Length": "71", 
+    "Content-Type": "application/x-www-form-urlencoded", 
+    "Host": "httpbin.org"
+  }, 
+  "json": null, 
+  "origin": "212.220.216.206", 
+  "url": "http://httpbin.org/post"
+}
+
+
+---------------------------
+
+
